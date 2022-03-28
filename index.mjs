@@ -10,6 +10,12 @@ function suma (event) {
 
     if (resultadoSuma === 11) {
         alert("Impresionante ¿verdad?");
+    } if (resultadoSuma === 15) {
+        alert("No hay nada más que ver.")
+    }if (resultadoSuma === 20) {
+        alert("En serio, ya está.")
+    }if (resultadoSuma === 25) {
+        alert("Vete ya, pesao.")
     }
 }
 buttonMasUno.addEventListener("click", suma);
